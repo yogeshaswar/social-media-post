@@ -1,0 +1,79 @@
+* {margin: 0;
+padding: 0;}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+    font-size: 10px;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.post-input {
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 4px;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-submit {
+    padding: 2px 4px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-submit:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.show-posts {
+    border: none;
+    border-left: 1px solid grey;
+    padding: 10px;
+}
+
+/*ERRPR*/
+.error {
+    text-align: center;
+    /* background-color: black; */
+    color: red;
+    font-size: 5px;
+}
+
+.show-post--post {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+
+}
+.show-post--post p {
+    margin-right: auto;
+    font-size: 8px;
+}
+
+
+
+show-post--post span {
+    display: flex;
+    justify-content: center;
+}
